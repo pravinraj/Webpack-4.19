@@ -14,8 +14,11 @@ module.exports={
       port: 6050,
       historyApiFallback: {
             index: './app/index.html'
-      }//Use to direct the page to index html while refresh the app
+      }
    },
+    resolve: {
+      extensions: ['.js', '.jsx', '.json']
+    },
    devtool: 'source-map',
    target: 'web',
    cache: true,

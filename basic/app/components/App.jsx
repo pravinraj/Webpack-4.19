@@ -1,5 +1,5 @@
 import React from 'react';
-import sampleJSON from './sampleJSON.json';
+import sampleJSON from './sampleJSON';
 
 class App extends React.Component{
 	render(){
