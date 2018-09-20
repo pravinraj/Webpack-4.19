@@ -1,0 +1,10 @@
+p{
+	background-color: green;
+}
+
+.myApp{
+	color:blue;
+	background-image: url(./img/bodyBack.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
